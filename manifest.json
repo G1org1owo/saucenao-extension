@@ -4,6 +4,7 @@
   "permissions": [
     "contextMenus"
   ],
+  "incognito": "split",
   "background": {
     "service_worker": "src/background.js",
     "type": "module"
