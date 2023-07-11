@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Search on SauceNAO",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "description": "Find out the origin of an image by simply right clicking on it.",
+  "version": "1.0",
+  "icons": {
+    "16": "img/saucenao-16.png",
+    "48": "img/saucenao-48.png",
+    "128": "img/saucenao-128.png"
+  }
+}
